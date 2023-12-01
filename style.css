@@ -1,0 +1,47 @@
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.container div {
+   
+    border: 0px;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+.container .header {
+    flex: 1 1 4;
+    background-color: #1f2937;
+    color: white;
+    border-top: 1px;
+
+}
+
+.container .white{
+    flex: 1 1 auto;
+    background-color: white;
+    color:black;
+}
+.container .blue{
+    flex: 1 1 auto;
+    background-color:#1f2937;
+    color:white ;
+
+}
+.container .grey{
+    flex: 1 1 auto;
+    background-color: #e5e7eb;
+    color: black;
+
+}
